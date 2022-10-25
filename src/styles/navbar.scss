@@ -1,0 +1,46 @@
+@import "../styles/globals/color";
+@import "../styles/layout/";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  @media only screen and (min-width: 600px) {
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px 30px;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    cursor: pointer;
+
+    &::after {
+      @include underline;
+    }
+
+    &:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+  }
+
+  a {
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: clamp(1rem, 1rem + 2vw, 2.5rem);
+
+    &:hover {
+      color: $light-grayish-yellow;
+    }
+  }
+}

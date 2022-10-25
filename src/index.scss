@@ -1,0 +1,8 @@
+@forward "/src/styles/style.scss";
+@import "../src/styles/globals/color";
+
+body {
+  margin: 0;
+  background-color: $dark-black;
+  color: $very-light-gray;
+}

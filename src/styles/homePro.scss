@@ -1,0 +1,75 @@
+@import "../styles/globals/color";
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  .pro-heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 5rem;
+
+    @media only screen and (min-width: 600px) {
+      font-size: 7rem;
+    }
+
+    @media only screen and (min-width: 768px) {
+      font-size: 9rem;
+    }
+  }
+
+  .project-list {
+    display: flex;
+    flex-direction: column;
+
+    .project {
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin: 50px 0;
+
+      &-img {
+        width: 70%;
+
+        img {
+          width: 80%;
+          height: 120px;
+        }
+      }
+    }
+
+    .project:nth-child(even) {
+      display: flex;
+      flex-direction: column;
+
+      @media only screen and (min-width: 600px) {
+        flex-direction: row-reverse;
+
+        .project-img {
+          margin-left: 50px;
+        }
+      }
+    }
+
+    .project-info {
+      h2:hover {
+        color: $light-grayish-yellow;
+      }
+    }
+
+    .project:nth-child(odd) {
+      display: flex;
+      flex-direction: column;
+
+      @media only screen and (min-width: 600px) {
+        flex-direction: row;
+
+        .project-img {
+          margin-right: 50px;
+        }
+      }
+    }
+  }
+}
