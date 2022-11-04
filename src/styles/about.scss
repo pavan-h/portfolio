@@ -45,13 +45,14 @@
   .name {
     a {
       font-weight: 700;
+      color: $dark-charcoal;
     }
     &:hover {
       color: transparent;
-      -webkit-text-stroke: 2px white;
-      -webkit-text-fill-color: $dark-black;
-      text-shadow: -1px -1px 0 white -1px 1px 0 white 1px -1px 0 white 1px 1px 0
-        white;
+      -webkit-text-stroke: 2px $dark-charcoal;
+      -webkit-text-fill-color: transparent;
+      text-shadow: -1px -1px 0 $dark-charcoal -1px 1px 0 $dark-charcoal 1px -1px
+        0 $dark-charcoal 1px 1px 0 $dark-charcoal;
     }
   }
 }
@@ -89,7 +90,7 @@
     }
 
     strong {
-      color: $light-grayish-yellow;
+      color: $french-beige;
       cursor: pointer;
 
       &:hover {
@@ -103,4 +104,8 @@
       text-decoration: 1.5px solid underline;
     }
   }
+}
+
+.ele {
+  color: $french-beige;
 }

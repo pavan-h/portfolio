@@ -1,20 +1,15 @@
-import React  from "react";
+import React from "react";
 import projects from "../projects.json";
 import "../styles/homePro.scss";
 
 const HomeProject = () => {
        
- 
-
-
-
-
   return (
     <>
       <section id="projects">
         <div className="projects">
           <div>
-            <h1 className="pro-heading">Projects<span>.</span></h1>
+            <h1 className="pro-heading">Projects<span className="ele">.</span></h1>
           </div>
           <div className="project-list">
             {projects &&
@@ -40,7 +35,7 @@ const HomeProject = () => {
                   </div>
                   
                 </div>
-              ))}
+              ))}         
           </div>
         </div>
       </section>

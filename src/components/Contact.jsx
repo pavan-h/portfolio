@@ -7,7 +7,7 @@ const Contact = () => {
         <section id="contact">
         <div>
           <div className="contact">
-          <h1>Say Hi<span>!!</span></h1>
+          <h1>Say Hi<span className='ele'>!!</span></h1>
           <div className="contact-info">
           <div className="profile">
                 <img src="" className="profile-pic"/>

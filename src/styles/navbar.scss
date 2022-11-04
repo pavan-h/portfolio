@@ -34,13 +34,13 @@
   }
 
   a {
-    color: white;
+    color: $dark-charcoal;
     font-weight: 600;
     text-transform: capitalize;
-    font-size: clamp(1rem, 1rem + 2vw, 2.5rem);
+    font-size: clamp(1rem, 1rem + 2vw, 2rem);
 
     &:hover {
-      color: $light-grayish-yellow;
+      color: $french-beige;
     }
   }
 }

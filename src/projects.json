@@ -1,59 +1,58 @@
 [
   {
     "id": 1,
-    "name": "app",
+    "name": "Shoe Factory",
     "desc": "lorem lorem lorem",
-    "github": "www.github.com",
-    "livePage": "wwww.google.com",
+    "github": "https://github.com/pavan-h/ShoeFactory--E-commerce-app",
+    "livePage": "https://pavan-shoe-factory.netlify.app",
     "skills": "HTML, CSS, JS",
-    "images": "https://github.com/pavan-h/my-portfolio/blob/main/images/easy-bank-1.jpg?raw=true"
+    "images": "https://github.com/pavan-h/ShoeFactory--E-commerce-app/blob/main/img/Screen%20Shot%202022-11-04%20at%203.24.18%20PM.png?raw=true"
   },
   {
     "id": 2,
-    "name": "Easybank landing page",
-    "desc": "This is a solution to the Easybank landing page challenge on Frontend Mentor.",
-    "github": "https://github.com/pavan-h/Easybank-landing-page.git",
-    "livePage": "https://pavan-h.github.io/Easybank-landing-page/",
-    "skills": "HTML, CSS, JS",
-    "images": "https://github.com/pavan-h/my-portfolio/blob/main/images/easy-bank-1.jpg?raw=true"
+    "name": "Mortgage calculator",
+    "desc": "Confusion and frustration can arise when taking out loans and figuring out monthly payments. However, anyone can readily plan their mortgages out with the aid of a mortgage calculator. In this project, you will construct a mortgage calculator.",
+    "github": "https://github.com/pavan-h/Mortgage-calculator-web-app",
+    "livePage": "https://pavan-mortgage-calculator.netlify.app",
+    "skills": "HTML, SCSS, JS",
+    "images": "https://github.com/pavan-h/Mortgage-calculator-web-app/blob/main/screenshot/Screen%20Shot%202022-11-04%20at%203.23.26%20PM.png?raw=true    "
   },
   {
     "id": 3,
-    "name": "Manage landing page",
+    "name": "Weather App",
     "desc": "This is a solution to the Manage landing page",
-    "github": "https://github.com/pavan-h/Manage-landing-page.git",
-    "livePage": "https://pavan-h.github.io/Manage-landing-page/",
+    "github": "https://github.com/pavan-h/weather-app",
+    "livePage": "https://pavan-weather-app.netlify.app",
     "skills": "HTML, CSS, JS",
-    "images": "https://github.com/pavan-h/my-portfolio/blob/main/images/manager-page-1.jpg?raw=true"
+    "images": "https://github.com/pavan-h/weather-app/blob/main/img/Screen%20Shot%202022-11-04%20at%203.16.20%20PM.png?raw=true"
   },
   {
     "id": 4,
-    "name": "app",
-    "desc": "lorem lorem lorem",
-    "github": "www.github.com",
-    "livePage": "wwww.google.com",
+    "name": "Time tracking dashboard",
+    "desc": "Time tracker dashboard is an app to monitor your time spent on activities like work, school, and recreation. It aids in time management.",
+    "github": "https://github.com/pavan-h/time-tracker",
+    "livePage": "https://pavan-time-tracker.netlify.app",
     "skills": "HTML, CSS, JS",
-    "images": "https://github.com/pavan-h/my-portfolio/blob/main/images/manager-page-1.jpg?raw=true"
+    "images": "https://github.com/pavan-h/time-tracker/blob/main/images/Screen%20Shot%202022-11-04%20at%203.21.47%20PM.png?raw=true"
       
   },
   {
     "id": 5,
-    "name": "app",
-    "desc": "lorem lorem lorem",
-    "github": "www.github.com",
-    "livePage": "wwww.google.com",
+    "name": "Easybank-landing-page",
+    "desc": "This is a solution to the Frontend Mentor challenge about the Easybank landing page. A flexible single landing page",
+    "github": "https://github.com/pavan-h/Easybank-landing-page",
+    "livePage": "https://pavan-h.github.io/Easybank-landing-page/",
     "skills": "HTML, CSS, JS",
-    "images": "https://github.com/pavan-h/my-portfolio/blob/main/images/manager-page-1.jpg?raw=true"
+    "images": "https://github.com/pavan-h/Easybank-landing-page/blob/main/screensots/Screen%20Shot%202022-11-04%20at%203.22.43%20PM.png?raw=true"
     
   },
   {
     "id": 6,
-    "name": "app",
-    "desc": "lorem lorem lorem",
-    "github": "www.github.com",
-    "livePage": "wwww.google.com",
+    "name": "Expenses-chart-component",
+    "desc": "This is a solution to the Frontend Mentor challenge for the Expenses chart component. to design a bar chart element from scratch. using a local JSON file given by the frontend mentor",
+    "github": "https://github.com/pavan-h/-Expenses-chart-component",
+    "livePage": "https://pavan-expenses-chart-component.netlify.app",
     "skills": "HTML, CSS, JS",
-    "images": "https://github.com/pavan-h/my-portfolio/blob/main/images/manager-page-1.jpg?raw=true"
-    
+    "images": "https://github.com/pavan-h/-Expenses-chart-component/blob/main/images/Screen%20Shot%202022-11-04%20at%203.23.09%20PM.png?raw=true" 
   }
 ]

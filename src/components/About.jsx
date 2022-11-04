@@ -1,6 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "../styles/about.scss"
-
 
 
 
@@ -11,14 +11,14 @@ const About = () => {
         <div className="intro">
           <div className="text-wrap">
             <h1 className="info-title">
-              <span>Hello<strong>.</strong></span>
+              <span>Hello<strong className='ele'>.</strong></span>
               <span>I am <span className='name'><a href="https://github.com/pavan-h" target="blank">Pavan</a></span></span>
             </h1>
 
             <div className="info-wrap">
             <h3 className="typing">
-              <span>Frontend Web Developer</span>
-              <span>Freelancer</span>
+              <span className='ele'>Frontend Web Developer</span>
+              <span className='ele'>Freelancer</span>
             </h3>
           </div>
             
@@ -38,6 +38,8 @@ const About = () => {
               <span> Stay in <a href="#contact" ><strong className="contact-link">touch</strong></a></span>
             </p>
           </div>
+
+          
         </div>
         </section>
        </> 

@@ -1,3 +1,4 @@
+@import "../styles/globals/color";
 @import "../styles/layout/";
 
 .contact {
@@ -57,7 +58,7 @@
       input {
         background-color: transparent;
         border: none;
-        color: white;
+        color: $dark-charcoal;
         font-size: 1rem;
         cursor: pointer;
 
@@ -65,16 +66,23 @@
           font-size: 1.5rem;
         }
         &:hover {
-          text-decoration: underline;
+          color: white;
+          text-decoration: 1px underline solid white;
+          transform: scale(1.1);
         }
       }
       span,
       a {
         font-size: 1rem;
         margin-top: 5px;
-        // margin-left: 2px;
         margin-right: 25px;
+        font-weight: 400;
+        color: $dark-charcoal;
 
+        &:hover {
+          color: white;
+          transform: scale(1.1);
+        }
         @media only screen and (min-width: 600px) {
           font-size: 1.5rem;
         }
