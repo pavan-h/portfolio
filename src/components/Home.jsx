@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/home.scss";
 import './About'
 import About from "./About";
-import HomeProject from "./HomeProject";
+import Project from "./Project";
 import Contact from "./Contact";
 
 
@@ -13,7 +13,7 @@ class Home extends React.Component {
     return (
       <>
       <About />
-      <HomeProject />
+      <Project />
       <Contact />
       </>
     );

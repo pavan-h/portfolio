@@ -1,8 +1,8 @@
 import React from "react";
 import projects from "../projects.json";
-import "../styles/homePro.scss";
+import "../styles/project.scss";
 
-const HomeProject = () => {
+const Project = () => {
        
   return (
     <>
@@ -44,4 +44,4 @@ const HomeProject = () => {
     
 };
 
-export default HomeProject;
+export default Project;
